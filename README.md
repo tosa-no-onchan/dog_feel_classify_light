@@ -12,6 +12,12 @@ Transformer に置き換えたモデル。
 犬の動画(今回は、映像部分のみ) を使って、わんこの気持ちを予測します。  
 
 ##### 1. Train  
-
   dog_feel_light_train.ipynb  
+
+##### 2. Onnx 変換  
   
+  $ python dog_feel_light_torch2onnx_for_pc.py  
+
+##### 3. Onnx predict  
+
+  $ python dog_feel_light_orangepi_onnx.py  
