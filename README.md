@@ -11,3 +11,7 @@ Transformer に置き換えたモデル。
   
 犬の動画(今回は、映像部分のみ) を使って、わんこの気持ちを予測します。  
 
+##### 1. Train  
+
+  dog_feel_light_train.ipynb  
+  
